@@ -3,6 +3,9 @@
 	"version": "0.1.0",
 	"description": "TypeScript type definitions for Office Scripts.",
 	"type": "module",
+	"bin": {
+		"office-scripts-typings": "dist/office-scripts-typings.js"
+	},
 	"scripts": {
 		"build": "tsc",
 		"build:watch": "tsc --watch",
@@ -20,7 +23,15 @@
 	},
 	"author": "HoldYourWaffle",
 	"license": "MIT",
+	"dependencies": {
+		"commander": "^11.1.0"
+	},
 	"devDependencies": {
+		"@types/node": "^20.10.1",
+		"tsx": "^4.6.1",
 		"typescript": "^5.3.2"
+	},
+	"peerDependencies": {
+		"typescript": "*"
 	}
 }
