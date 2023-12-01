@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "module": "nodenext",
+        "moduleResolution": "nodenext",
+        "declaration": true,
+        "declarationMap": true,
+        "sourceMap": true,
+        "outDir": "./dist",
+        "importsNotUsedAsValues": "remove",
+        "forceConsistentCasingInFileNames": true,
+        "strict": true,
+        "exactOptionalPropertyTypes": true,
+        "noImplicitReturns": true,
+        "noUncheckedIndexedAccess": true,
+        "noImplicitOverride": true,
+        "noPropertyAccessFromIndexSignature": true,
+        "allowUnreachableCode": true,
+        "skipLibCheck": true
+    },
+    "include": [
+        "./src/**/*.ts"
+    ],
+}

@@ -1,0 +1,26 @@
+{
+	"name": "office-scripts-typings",
+	"version": "0.1.0",
+	"description": "TypeScript type definitions for Office Scripts.",
+	"type": "module",
+	"scripts": {
+		"build": "tsc",
+		"build:watch": "tsc --watch",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"office-scripts"
+	],
+	"homepage": "https://github.com/HoldYourWaffle/office-scripts-typings/",
+	"bugs": {
+		"url": "https://github.com/HoldYourWaffle/office-scripts-typings/issues"
+	},
+	"repository": {
+		"url": "git+https://github.com/HoldYourWaffle/office-scripts-typings.git"
+	},
+	"author": "HoldYourWaffle",
+	"license": "MIT",
+	"devDependencies": {
+		"typescript": "^5.3.2"
+	}
+}
