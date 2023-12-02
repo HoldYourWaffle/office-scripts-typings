@@ -3,13 +3,22 @@
 	"version": "0.1.0",
 	"description": "TypeScript type definitions for Office Scripts.",
 	"type": "module",
+	"files": [
+		"dist/office-scripts-typings.js",
+		"dist/office-scripts-typings.d.ts",
+		"LICENSE",
+		"README.md",
+		"package.json"
+	],
+	"types": "dist/office-scripts-typings.d.ts",
 	"bin": {
 		"office-scripts-typings": "dist/office-scripts-typings.js"
 	},
 	"scripts": {
 		"build": "tsc",
 		"build:watch": "tsc --watch",
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"test": "echo \"Error: no test specified\"",
+		"prepublish": "npm run build && npm run test"
 	},
 	"keywords": [
 		"office-scripts"
