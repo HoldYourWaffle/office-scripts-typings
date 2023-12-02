@@ -18,7 +18,7 @@
 		"build": "tsc",
 		"build:watch": "tsc --watch",
 		"test": "echo \"Error: no test specified\"",
-		"prepublish": "npm run build && npm run test"
+		"prepublishOnly": "npm run build && npm run test"
 	},
 	"keywords": [
 		"office-scripts"
