@@ -1,4 +1,9 @@
 # office-scripts-typings
+
+ [![npm version](https://img.shields.io/npm/v/office-scripts-typings.svg)](https://www.npmjs.com/package/office-scripts-typings)
+ [![license](https://img.shields.io/npm/l/office-scripts-typings.svg)](https://github.com/HoldYourWaffle/office-scripts-typings/blob/master/LICENSE.md)
+
+
 TypeScript type definitions for Office Scripts.
 
 ## Generator
